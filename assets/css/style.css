@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border: o;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 25em;
+  min-height: 100vh;
+}
+
+.aside hr {
+  color: #bec1bb;
+}
+
+.card {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid #bec1bb;
+}
+
+.photobox {
+  padding-left: 35px;
+}
+
+.statephoto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.state {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.name {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.active {
+  color: #828485;
+  font-size: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-grow: 1;
+  gap: 15px;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+  color: #828485;
+  font-size: 1.5em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-bottom: 0.5px solid #bec1bb;
+}
+
+.click {
+  text-align: center;
+  background-color: #a491d2;
+  width: 100px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+}
+
+.click:hover {
+  background-color: #cdc3e6;
+  color: #1b1f21;
+}
+
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border-bottom: 0.5px solid #bec1bb;
+}
+
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.state p {
+  font-size: 14px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border-left: 1px solid #bec1bb;
+}
+
+.imagehand {
+  width: 270px;
+  height: 270px;
+  border-radius: 5%;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
+.paragraph {
+  padding-top: 10px;
+}
+
+#newchat {
+  font-weight: bold;
+}
